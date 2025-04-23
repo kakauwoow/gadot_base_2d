@@ -1,0 +1,9 @@
+res://player.tscn
+res://characters/happy_boo/happy_boo.tscn
+res://survivel.tscn
+res://mob3.tscn
+res://gun.tscn
+res://bullet.tscn
+res://bullet.gd
+res://gun.gd
+res://mob3.gd

@@ -1,0 +1,71 @@
+[gd_scene load_steps=4 format=3 uid="uid://dw6fvnnct6o0s"]
+
+[ext_resource type="PackedScene" uid="uid://ccga28a3aucjj" path="res://player.tscn" id="1_55c7t"]
+[ext_resource type="PackedScene" uid="uid://ba1qj18ggit33" path="res://tree3.tscn" id="2_55c7t"]
+[ext_resource type="PackedScene" uid="uid://54edh87jbwig" path="res://mob3.tscn" id="3_ap6qy"]
+
+[node name="game" type="Node2D"]
+y_sort_enabled = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -30
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_left = -5.0
+offset_top = -4.0
+offset_right = 2126.0
+offset_bottom = 1305.0
+
+[node name="player" parent="." instance=ExtResource("1_55c7t")]
+position = Vector2(656, 364)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_ap6qy")]
+position = Vector2(1269, 757)
+
+[node name="CharacterBody2D2" parent="." instance=ExtResource("3_ap6qy")]
+position = Vector2(581, 473)
+
+[node name="CharacterBody2D3" parent="." instance=ExtResource("3_ap6qy")]
+position = Vector2(532, 439)
+
+[node name="CharacterBody2D4" parent="." instance=ExtResource("3_ap6qy")]
+position = Vector2(289, 524)
+
+[node name="CharacterBody2D5" parent="." instance=ExtResource("3_ap6qy")]
+position = Vector2(780, 932)
+
+[node name="CharacterBody2D6" parent="." instance=ExtResource("3_ap6qy")]
+position = Vector2(1589, 788)
+
+[node name="CharacterBody2D7" parent="." instance=ExtResource("3_ap6qy")]
+position = Vector2(1433, 549)
+
+[node name="CharacterBody2D8" parent="." instance=ExtResource("3_ap6qy")]
+position = Vector2(1419, 363)
+
+[node name="StaticBody2D" parent="." instance=ExtResource("2_55c7t")]
+position = Vector2(968, 644)
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("2_55c7t")]
+position = Vector2(1082, 639)
+
+[node name="StaticBody2D3" parent="." instance=ExtResource("2_55c7t")]
+position = Vector2(1189, 630)
+
+[node name="StaticBody2D4" parent="." instance=ExtResource("2_55c7t")]
+position = Vector2(1142, 917)
+
+[node name="StaticBody2D5" parent="." instance=ExtResource("2_55c7t")]
+position = Vector2(683, 931)
+
+[node name="StaticBody2D6" parent="." instance=ExtResource("2_55c7t")]
+position = Vector2(348, 576)
+
+[node name="StaticBody2D7" parent="." instance=ExtResource("2_55c7t")]
+position = Vector2(282, 910)
+
+[node name="StaticBody2D8" parent="." instance=ExtResource("2_55c7t")]
+position = Vector2(459, 952)
+
+[node name="StaticBody2D9" parent="." instance=ExtResource("2_55c7t")]
+position = Vector2(657, 219)
